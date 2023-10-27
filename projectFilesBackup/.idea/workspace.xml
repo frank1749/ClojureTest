@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90ab70a5-042e-48f0-a699-3ec8a625695a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsLocalSettings">
+    <option name="repoId" value="" />
+    <option name="repoUrl" value="" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:default {:classpath {&quot;src&quot; {:path-key :paths}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot; {:lib-name org.clojure/clojure}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot; {:lib-name org.clojure/data.json}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot; {:lib-name org.clojure/core.specs.alpha}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot; {:lib-name org.clojure/spec.alpha}}, :basis-config {}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :paths [&quot;src&quot;], :classpath-roots [&quot;src&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot;], :config-paths [&quot;C:\\Users\\frank\\.deps.clj\\1.11.1.1347\\ClojureTools\\deps.edn&quot; &quot;C:\\Users\\frank\\.clojure\\deps.edn&quot; &quot;C:\\xampp\\htdocs\\clojure-challenge (2) (1) (1) (1) (4) (1)\\deps.edn&quot;], :alias-scopes {:system #{:test :deps}, :user #{}, :project #{}}, :alias-types {:deps :tool}, :libs {org.clojure/clojure {:mvn/version &quot;1.11.1&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot;]}, org.clojure/data.json {:mvn/version &quot;0.2.6&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot;]}, org.clojure/spec.alpha {:mvn/version &quot;0.3.218&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot;]}, org.clojure/core.specs.alpha {:mvn/version &quot;0.2.62&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot;]}}, :aliases {:deps {:replace-paths [], :replace-deps {org.clojure/tools.deps.cli {:mvn/version &quot;0.9.43&quot;}}, :ns-default clojure.tools.deps.cli.api, :ns-aliases {help clojure.tools.deps.cli.help}}, :test {:extra-paths [&quot;test&quot;]}}, :deps {org.clojure/clojure {:mvn/version &quot;1.11.1&quot;}, org.clojure/data.json {:mvn/version &quot;0.2.6&quot;}}}, :aliases {:classpath {&quot;test&quot; {:path-key :extra-paths}, &quot;src&quot; {:path-key :paths}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot; {:lib-name org.clojure/clojure}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot; {:lib-name org.clojure/data.json}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot; {:lib-name org.clojure/core.specs.alpha}, &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot; {:lib-name org.clojure/spec.alpha}}, :basis-config {:aliases [:test]}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :argmap {:extra-paths [&quot;test&quot;]}, :paths [&quot;src&quot;], :classpath-roots [&quot;test&quot; &quot;src&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot; &quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot;], :config-paths [&quot;C:\\Users\\frank\\.deps.clj\\1.11.1.1347\\ClojureTools\\deps.edn&quot; &quot;C:\\Users\\frank\\.clojure\\deps.edn&quot; &quot;C:\\xampp\\htdocs\\clojure-challenge (2) (1) (1) (1) (4) (1)\\deps.edn&quot;], :alias-scopes {:system #{:test :deps}, :user #{}, :project #{}}, :alias-types {:deps :tool}, :libs {org.clojure/clojure {:mvn/version &quot;1.11.1&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\clojure\\1.11.1\\clojure-1.11.1.jar&quot;]}, org.clojure/data.json {:mvn/version &quot;0.2.6&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\data.json\\0.2.6\\data.json-0.2.6.jar&quot;]}, org.clojure/spec.alpha {:mvn/version &quot;0.3.218&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\spec.alpha\\0.3.218\\spec.alpha-0.3.218.jar&quot;]}, org.clojure/core.specs.alpha {:mvn/version &quot;0.2.62&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;C:\\Users\\frank\\.m2\\repository\\org\\clojure\\core.specs.alpha\\0.2.62\\core.specs.alpha-0.2.62.jar&quot;]}}, :aliases {:deps {:replace-paths [], :replace-deps {org.clojure/tools.deps.cli {:mvn/version &quot;0.9.43&quot;}}, :ns-default clojure.tools.deps.cli.api, :ns-aliases {help clojure.tools.deps.cli.help}}, :test {:extra-paths [&quot;test&quot;]}}, :deps {org.clojure/clojure {:mvn/version &quot;1.11.1&quot;}, org.clojure/data.json {:mvn/version &quot;0.2.6&quot;}}}}" />
+              <option name="hash" value="aa3367bd4dc5c86abacdc857741ac71c" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WmiF8TZ7VESblDTlv8AMqqCTT8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/clojure-challenge (2) (1) (1) (1) (4) (1)",
+    "settings.editor.selected.configurable": "DepsSettings"
+  }
+}]]></component>
+  <component name="ReplState" timestamp="1697950112228">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="displayName" value="first" />
+      <module name="clojure-challenge (2) (1) (1) (1) (4) (1)" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90ab70a5-042e-48f0-a699-3ec8a625695a" name="Changes" comment="" />
+      <created>1697344051707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697344051707</updated>
+    </task>
+    <servers />
+  </component>
+</project>
